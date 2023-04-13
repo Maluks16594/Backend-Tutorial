@@ -1,3 +1,3 @@
 module.exports = {
-    url: "//malulekelangutani:Langu2023.@cluster0.rndpsmn.mongodb.net/test"
+    url: "mongodb+srv://malulekelangutani:Langu2023.@cluster0.rndpsmn.mongodb.net/test"
   };
