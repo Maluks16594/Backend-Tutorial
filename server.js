@@ -33,9 +33,9 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
 // simple route
-app.get("/api/tutorials", (req, res) => {
-  res.json({ message: "Welcome to back-end tutorial" });
-});
+// app.get("/api/tutorials", (req, res) => {
+//   res.json({ message: "Welcome to back-end tutorial" });
+// });
 
 // router call 
 require("./app/routes/tutorial.routes")(app);
